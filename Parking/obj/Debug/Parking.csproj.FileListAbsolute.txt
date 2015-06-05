@@ -1,0 +1,14 @@
+C:\Users\Universidad\Desktop\Parking\Parking\obj\Debug\MainWindow.baml
+C:\Users\Universidad\Desktop\Parking\Parking\obj\Debug\RegistroWindow.baml
+C:\Users\Universidad\Desktop\Parking\Parking\obj\Debug\MainWindow.g.cs
+C:\Users\Universidad\Desktop\Parking\Parking\obj\Debug\RegistroWindow.g.cs
+C:\Users\Universidad\Desktop\Parking\Parking\obj\Debug\App.g.cs
+C:\Users\Universidad\Desktop\Parking\Parking\obj\Debug\Parking_MarkupCompile.cache
+C:\Users\Universidad\Desktop\Parking\Parking\obj\Debug\Parking.g.resources
+C:\Users\Universidad\Desktop\Parking\Parking\obj\Debug\Parking.Properties.Resources.resources
+C:\Users\Universidad\Desktop\Parking\Parking\obj\Debug\Parking.csproj.GenerateResource.Cache
+C:\Users\Universidad\Desktop\Parking\Parking\bin\Debug\Parking.exe.config
+C:\Users\Universidad\Desktop\Parking\Parking\bin\Debug\Parking.exe
+C:\Users\Universidad\Desktop\Parking\Parking\bin\Debug\Parking.pdb
+C:\Users\Universidad\Desktop\Parking\Parking\obj\Debug\Parking.exe
+C:\Users\Universidad\Desktop\Parking\Parking\obj\Debug\Parking.pdb

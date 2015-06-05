@@ -1,0 +1,8 @@
+﻿<Window x:Class="Parking.RegistroWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="RegistroWindow" Height="600" Width="300" Icon="image\Icono.ico" WindowStartupLocation="CenterScreen">
+    <Grid>
+        
+    </Grid>
+</Window>

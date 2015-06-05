@@ -1,0 +1,28 @@
+ CARGAR DATAGRID por código C# con diseño WPF. y base de datos en SQL SERVER
+Se añaden las siguientes librerías:
+using System.Data;              //  <--- a="" ade="" la="" librer="" se="" span="">
+using System.Data.SqlClient;    //  <--- a="" ade="" la="" librer="" o:p="" se="">
+
+
+se crean las cadenas de conexión:
+SqlConnection conexion = new SqlConnection();     //<-- conexion="" crea="" la="" se="" span="">
+        SqlCommand comando = new SqlCommand();            //<-- comando="" crea="" el="" se="" span="">
+        SqlDataAdapter Adaptador = new SqlDataAdapter();  //<-- adaptador="" crea="" se="" span="">
+        DataSet DS = new DataSet();       
+
+ Se inserta el código (en este caso se insertó en un Control de tipo BUTTON):
+
+       private void BTNLISTAR_Click(object sender, RoutedEventArgs e)
+        {
+            comando.CommandText = "Select * From CLIENTES";
+            conexion.ConnectionString = "Data Source=LCCSYHB_32;Initial Catalog=CSharp_Ejercicios;Integrated Security=True";
+            comando.Connection = conexion;
+            Adaptador.SelectCommand = comando;
+            Adaptador.Fill(DS);
+            dataGrid1.ItemsSource = DS.Tables[0].DefaultView;
+            conexion.Close();
+
+ 
+        }
+ ENLA DE VÍDEO DE YOUTUBE : Ejemplo de datagrid
+Enlace del ejemplo que hice (Código fuente):  Enlace de descarga Código fuente
